@@ -117,10 +117,16 @@ body {
 .results-carousel .item {
   margin: 5px;
   overflow: hidden;
-  border: 1px solid #bbb;
-  border-radius: 10px;
   padding: 0;
   font-size: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.results-carousel .item img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 15px;
 }
 
 .results-carousel video {
